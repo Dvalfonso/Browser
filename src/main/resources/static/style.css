@@ -1,0 +1,46 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    text-align: center;
+}
+
+.main a {
+    margin-bottom: 1rem; /* Espacio entre el logo y los demás elementos */
+}
+
+.imgLogo {
+    width: 20rem; /* Tamaño del logo */
+    height: auto;
+}
+
+.main input[type="text"] {
+    width: 40%; /* Ancho relativo al contenedor */
+    padding: 1rem; /* Espacio interno */
+    margin: 0.5rem 0; /* Margen superior e inferior */
+    font-size: 1rem; /* Tamaño del texto relativo */
+    border: 1px solid #ddd; /* Borde claro */
+    border-radius: 24px; /* Bordes redondeados */
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28); /* Sombra sutil */
+    outline: none; /* Sin borde de enfoque */
+    transition: box-shadow 0.3s ease; /* Transición suave */
+}
+
+.main input[type="text"]:focus {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.35); /* Sombra más intensa en el enfoque */
+}
+
+.main button {
+    width: 10%;
+    padding: 0.5rem; /* Tamaño del padding relativo */
+    margin: 0.5rem 0; /* Margen superior e inferior */
+    font-size: 1rem; /* Tamaño del texto relativo */
+    background-color: #8b8367; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 24px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
